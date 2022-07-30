@@ -49,6 +49,7 @@ if (!isset($_SESSION['username'])) {
 	  _paq.push(['trackPageView']);
 	  _paq.push(['enableLinkTracking']);
 	  _paq.push(['enableHeartBeatTimer']);
+	  _paq.push(['setUserId', '<?php echo $getusername; ?>']);
 	  (function() {
 	    var u="//matomo.aliyasin.org/";
 	    _paq.push(['setTrackerUrl', u+'matomo.php']);
