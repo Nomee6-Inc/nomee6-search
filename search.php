@@ -1,6 +1,7 @@
 <?php
 session_start();
 $getuseremail = $_SESSION['email'];
+$getusername = $_SESSION['username'];
 include 'config.php';
 $getsearchquery = $_GET['q'];
 if(!$getsearchquery) {
@@ -44,6 +45,7 @@ if (isset($_POST['searchsubmit'])) {
 	  _paq.push(['trackPageView']);
 	  _paq.push(['enableLinkTracking']);
 	  _paq.push(['enableHeartBeatTimer']);
+	  _paq.push(['setUserId', '<?php echo $getusername; ?>']);
 	  (function() {
 	    var u="//matomo.aliyasin.org/";
 	    _paq.push(['setTrackerUrl', u+'matomo.php']);
