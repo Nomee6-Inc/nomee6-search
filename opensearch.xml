@@ -5,5 +5,5 @@
     <Description>NOMEE6 Search üzerinde arama yapın.</Description>
     <InputEncoding>UTF-8</InputEncoding>
     <Url method="get" rel="results" type="text/html" template="https://search.nomee6.xyz/search?q={searchTerms}" />
-    <Url method="get" rel="suggestions" type="text/html" template="https://search.nomee6.xyz/api/suggestion.php?key={searchTerms}" />
+    <Url method="get" rel="suggestions" type="text/html" template="https://search.nomee6.xyz/search?q={searchTerms}" />
 </OpenSearchDescription>
