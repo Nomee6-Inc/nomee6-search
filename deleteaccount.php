@@ -66,6 +66,7 @@ $ifdate15day = ($getnowdate - $gettokenexpiredate) / 86400;
 	  _paq.push(['trackPageView']);
 	  _paq.push(['enableLinkTracking']);
 	  _paq.push(['enableHeartBeatTimer']);
+      	  _paq.push(['setUserId', '<?php echo $getauthoraccountmail; ?>']);
 	  (function() {
 	    var u="//matomo.aliyasin.org/";
 	    _paq.push(['setTrackerUrl', u+'matomo.php']);
