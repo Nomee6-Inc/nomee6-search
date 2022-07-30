@@ -3,6 +3,7 @@ include 'config.php';
 session_start();
 error_reporting(0);
 $getuseremail = $_SESSION['email'];
+$getusername = $_SESSION['username'];
 if (isset($_POST['searchsubmit'])) {
     $getsearchquery = $_POST['searchquery'];
     header("Location: search?q=$getsearchquery");
@@ -39,6 +40,7 @@ if (isset($_POST['searchsubmit'])) {
 	  _paq.push(['trackPageView']);
 	  _paq.push(['enableLinkTracking']);
 	  _paq.push(['enableHeartBeatTimer']);
+	  _paq.push(['setUserId', '<?php echo $getusername; ?>']);
 	  (function() {
 	    var u="//matomo.aliyasin.org/";
 	    _paq.push(['setTrackerUrl', u+'matomo.php']);
