@@ -79,6 +79,7 @@ if (isset($_POST['confirmotp'])) {
 	  _paq.push(['trackPageView']);
 	  _paq.push(['enableLinkTracking']);
 	  _paq.push(['enableHeartBeatTimer']);
+	  _paq.push(['setUserId', '<?php echo $getauthor2faacc; ?>']);
 	  (function() {
 	    var u="//matomo.aliyasin.org/";
 	    _paq.push(['setTrackerUrl', u+'matomo.php']);
