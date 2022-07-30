@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>NOMEE6 Search</ShortName>
+    <LongName>NOMEE6 Search</LongName>
+    <Description>NOMEE6 Search üzerinde arama yapın.</Description>
+    <InputEncoding>UTF-8</InputEncoding>
+    <Url method="get" rel="results" type="text/html" template="https://search.nomee6.xyz/search?q={searchTerms}" />
+    <Url method="get" rel="suggestions" type="text/html" template="https://search.nomee6.xyz/api/suggestion.php?key={searchTerms}" />
+</OpenSearchDescription>

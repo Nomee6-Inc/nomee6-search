@@ -1,0 +1,103 @@
+body{
+    margin-top:20px;
+    background:#15181f;
+}
+.card-box {
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+.search-result-box .tab-content {
+    padding: 30px 30px 10px 30px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.search-result-box .search-item {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e3eaef;
+    margin-bottom: 20px;
+}
+.text-success {
+    color: #0acf97!important;
+    -webkit-user-select: none;
+    user-select: none;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.btn-custom {
+    background-color: #02c0ce;
+    border-color: #02c0ce;
+}
+
+.btn-custom, .btn-danger, .btn-info, .btn-inverse, .btn-pink, .btn-primary, .btn-purple, .btn-success, .btn-warning {
+    color: #fff!important;
+}
+.footerdropbtn {
+  background-color: #5170b2;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+}
+.headerbtn {
+  background-color: #5170b2;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  display: right;
+  float: right;
+}
+
+.footerdropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.footerdropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.footerdropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  -webkit-user-select: none;
+  user-select: none;
+  font-family: "Roboto";
+}
+
+.footerdropdown-content a:hover {background-color: #f1f1f1}
+
+.footerdropdown:hover .footerdropdown-content {
+  display: block;
+}
+
+.footerdropdown:hover .footerdropbtn {
+  background-color: #5170b2;
+}
+.imgsrchresults {
+  display: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  border-radius: 200px;
+  -webkit-user-select: none;
+  user-select: none;
+}
